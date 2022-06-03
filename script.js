@@ -43,9 +43,9 @@ function loop() {
     } else if (snake.y >= canvas.height) {
         snake.y = 0;
     }
-    context.fillStyle = "blue"
+    context.fillStyle = "pink"
     context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
-    context.fillStyle = "white";
+    context.fillStyle = "grey";
     snake.cells.forEach(function(cell, index) {
         context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
         if (cell.x === apple.x && cell.y === apple.y) {
