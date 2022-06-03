@@ -12,8 +12,8 @@ let snake = {
 };
 
 let apple = {
-    x: 500,
-    y: 500,
+    x: 140,
+    y: 140,
 };
 
 function getRandomInt(min, max) {
